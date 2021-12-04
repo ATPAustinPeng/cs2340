@@ -1,0 +1,30 @@
+- Which type of coupling occurs when classes share global data?
+	- common coupling
+- Which type of association is appropriate for modeling "Human" - "BodyParts" relationship in a class diagram?
+	- composition
+- Which one of the following combinations leads to better designed code that is easier to maintain?
+	- low coupling, high cohesion
+- What is the name of a visibility type where an object A receives a reference to an object B as an argument of method A?
+	- parameter visibility
+- What is the name of a code smell in which a class has only fields, getters, setters, and nothing else?
+	- data class
+- Which of the following statements is FALSE about the GRASP Controller principle
+	- It delegates to others the work to be done.
+	- It coordinates and controls the activity.
+	- **It is a GUI object that is responsible for handling an input system event.**
+	- It may be implemented as a facade controller class or use-case or session controller class.
+- Which of the following GRASP patterns avoids classes that do too many unrelated things?
+	- high cohesion principle
+- Testing cannot prove the absence of errors bur only reveal their presence.
+	- true
+- In accordance with the basic GRASP patterns, the size of a class is measured in terms of its:
+	- number of responsibilities
+- Which principle is not part of SOLID design principles?
+	- Don't Repeat Yourself
+- Classes should be implemented starting from ___ coupled to ___ coupled.
+	- least; most
+- Which of the following statements are TRUE? Mark all that apply.
+	- **coupling refers to the degree of interdependence between modules**
+	- coupling refers to the degree to which the elements inside a module belong together
+	- cohesion refers to the degree of interdependence between modules
+	- **cohesion refers to the degree to which elements inside a module belong together**

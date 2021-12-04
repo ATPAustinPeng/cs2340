@@ -1,0 +1,47 @@
+- In the Unified Process, programming is a simple mechanical translation of design artifacts into code.
+	- false
+- In the Unified Process, you should try to define most of the requirements before starting design or implementation.
+	- false
+- In the Unified Process, you should continually define (and refine/clarify) requirements over multiple iterations.
+	- true
+- In the Unified Process, the main goal of UML diagramming and design activities are to fully and accurately define designs and models in greater detail.
+	- false
+- A good summary of the Unified Process is that the Inception phase corresponds to Requirements Analysis, the Elaboration Phase corresponds to Design, and the Construction Phase corresponds only to Implementation and Programming.
+	- false
+- The purpose of the Elaboration Phase in the Unified Process is to fully and carefully define models.
+	- false
+- Good lengths for iterations within the Unified Process are three to six months long (or longer).
+	- false
+- Success in the Unified Process involves doing as many of the activities, and creating as many of the documents (ex. artifacts) as possible.
+	- false
+- A successfully Unified Process project is when you can speculatively predict what will happen in each of the iterations very early during the project's development.
+	- false
+- The Inception Phase in the Unified Process is not the time to generate all requirements, nor is it the time to create believable estimates or plans.
+	- true
+- The primary purpose of the Elaboration Phase is to tackle the very easy and straightforward aspects of the developing core architecture.
+	- false
+- Envisioning the product scope, vision, and business case for a project should happen before the Elaboration Phase in the Unified Process.
+	- true
+- The production core executable architecture is often one of the main products of the Elaboration Phase in the Unified Process.
+	- true
+- There shouldn't be any production-code programming (ex. development of the executable architecture before the Construction Phase of the Unified Process).
+	- false
+- The purpose of the Elaboration Phase in the Unified Process is to fully and carefully define models.
+	- false
+ - All use cases must be written and developed in detail during the Inception Phase.
+	 - false
+- Prototypes and proof-of-concepts can be created during the Inception Phase in the Unified Process.
+	- true
+- The Elaboration Phase is where the core architecture is implemented in an iterative manner, and high-risk issues are mitigated.
+	- true
+- With the Unified Process, the estimation of the overall schedule and resources is done during the Elaboration Phase.
+	- true
+- "The landing page supporting 200 concurrent users must provide 5 seconds or less response time" is an example of which type of requirements?
+	- non-functional
+- Two entities may have zero, one, or more associations between them in a Domain Model.
+	- true
+- Which of the following options is NOT used to test the validity of a use case?
+	- Boss test
+	- EPB test
+	- **ERP test**
+	- Size test
