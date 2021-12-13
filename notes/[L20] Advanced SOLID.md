@@ -92,9 +92,10 @@ class Main {
 - things that change a lot should have very few dependents
 
 ### Measuring Stability: I Metric
-- <img src="https://render.githubusercontent.com/render/math?math=I = \frac{C-out}{C-in+C_out}">
-	- `C-in`: the number of classes outside a package that **depend on a class inside the package**
-	- `C-out`: the number of classes outside a package that **any class inside the package depends on**
+<img src="img/l20-i-metric.png" alt="i-metric">
+
+- `C-in`: the number of classes outside a package that **depend on a class inside the package**
+- `C-out`: the number of classes outside a package that **any class inside the package depends on**
 - `I` value is always between 0 and 1
 	- `I=0` is a highly stable package
 	- `I=1` is a highly unstable package
@@ -112,9 +113,9 @@ class Main {
 <img src="img/l20-depending-on-abstract.png" alt="depending-on-abstract" width="400">
 
 ### Measuring Stability: A Metric
-- <img src="https://render.githubusercontent.com/render/math?math=A = \frac{C-abstract}{C-concrete+C-abstract}">
-	- `C-abstract`: the number of abstract classes and interfaces in a package
-	- `C-concrete`: the number of concrete classes in a package
+<img src="img/l20-a-metric.png" alt="a-metric">
+- `C-abstract`: the number of abstract classes and interfaces in a package
+- `C-concrete`: the number of concrete classes in a package
 - `A` value is always between 0 and 1
 	- `A=0` is a highly concrete package
 	- `A=1` is a highly abstract package
